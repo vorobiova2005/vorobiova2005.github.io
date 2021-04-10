@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+body{
+    background-color: rgb(255, 247, 242);
+}
+
+img{
+    position: relative;
+  width: 100%;  
+   }
+
+   h1{
+    color: white;
+    font-size: 600%;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 100%;
+   }
+
+   .logo{
+       width: 10%;
+       top: -850px;
+       left: 50px;
+    }
+
+    p{
+        color: white;
+        font-size: 150%;
+    }
+    p:hover{
+    color: red;
+    font-size: 200%;
+
+    }
+
+   .paragraf{
+       width: 30%;
+       position: absolute;
+       top: 50px;
+       right: 500px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around; 
+                
+   }
+
+   
+
+   .contact-us{
+       width: 13%;
+       height: 40px ;
+       color: white;
+       background-color: rgb(247, 67, 67);
+       border: 2px solid rgb(247, 67, 67);
+       border-radius: 5px;
+       position: absolute;
+       top: 50px;
+      right: 250px;
+           }
+
+           .contact-us:hover{
+            background-color: orange;
+            border: 2px solid orange;
+            box-shadow:10px 5px 5px grey;
+           }
+
+          .get-started{
+        width: 13%;
+        height: 40px ;
+        color: white;
+        background-color: rgb(247, 67, 67);
+        border: 2px solid rgb(247, 67, 67);
+        border-radius: 5px;
+        position: absolute;
+        top: 550px;
+    } 
+
+        .get-started:hover{
+       background-color: orange;
+       border: 2px solid orange;
+       box-shadow:10px 5px 5px grey; 
+         }
+
+    
+    .mobel{
+        width: 50%;
+        position: absolute;
+        top: 750px;
+        left: -100px;
+    }
+  
+    img.about-us{
+       width: 60%;
+       top: 350px;
+       display: block;
+       margin: 0 auto;
+    }
+
+    img.how-to-apply{
+        width: 75%;
+        top: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    img.group14{
+        width: 40%;
+        top: 400px;
+        right: 150px;
+        float: right;
+    }
+
+    h2{
+      margin-top: 500px;
+     margin-left: 200px;
+     font-size: 300%;
+    }
+
+    .button{
+        display: flex;
+       top: 300px;
+        left: 400px;
+        flex-direction: column;
+        width: 30%;
+    }
+    .button2{
+        display: flex;
+       top: -410px;
+        left: 900px;
+        flex-direction: column;
+        width: 30%;
+    }
+    .button:hover{
+        border: 5px solid red;
+        border-radius: 5px;
+    }
+
+    .button2:hover{
+        border: 5px solid red;
+        border-radius: 5px;
+    }
+
+    .testi{
+        width: 90%;
+        float: right;
+    }
+     
+    img.group35{
+        width: 20%;
+        float: left;
+        top: -150px;
+    }
+
+    .mask-group{
+        margin-top: -150px;
+    }
+
+    
+
+   
+
+    .footer{
+        background: url(/Images/BG.png) no-repeat;
+        margin-top: 1000px ;
+        height: 1000px;
+        
+
+    }
+
+    form{
+        position: absolute;
+        width: 30%;
+        height: 250px;
+        margin-top: -650px;
+        margin-left: 700px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: 12px 12px 2px 1px rgba(206, 206, 206, 0.2);
+       
+        }
+
+    p.form{
+        color:black;
+        font-size: 100%;
+        font-weight: normal;
+        margin-top: 10px;
+        margin-left: 50px;
+       
+    }
+
+    .form-input{
+        padding: 6px 0 4px 10px;
+        border: 1px solid #cecece;
+        background: #F6F6f6;
+        border-radius: 6px;
+        margin-left: 40px;
+        }
+
+        input:hover{
+            border: 5px solid orange;
+        }
+    
+     .form-button{
+        width: 40%;
+        height: 30px ;
+        color: white;
+        background-color: rgb(247, 67, 67);
+        border: 2px solid rgb(247, 67, 67);
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 600;
+        margin-left: 40px;
+    }
+    .form-button:hover{
+        background-color: orange;
+        border: 2px solid orange;
+        box-shadow:10px 5px 5px grey;
+    }
+
+    .logo-footer{
+        width: 10%;
+       top: -200px;
+       left: 200px;
+    }
+
+    .footer-paragraf{
+        width: 30%;
+        color: white;
+        position: absolute;
+        margin-top: -250px;
+       margin-left: 800px;
+        display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       
+    }
+
+    img.sm{
+       width: 10%;
+        float: right;
+        right: 300px;
+       position: fixed;
+    }
+
+    @media screen and (max-width: 950px){
+        h1{
+            font-size: 400%; 
+        }
+        h2{
+            font-size: 200%;  
+        }
+
+    }
+
+   
+
+
+
+
+
+    
