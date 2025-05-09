@@ -1,0 +1,386 @@
+/* Стилі для всієї сорінки */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Шрифти */
+
+html{
+    font-family: "Lato", sans-serif;
+}
+
+/* HEADER */
+ header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../Images/tea-about0us-baner.jpg') no-repeat center/cover;
+    background-position: center center; 
+    padding-bottom: 5%; 
+    background-attachment: fixed;
+  }   
+
+
+  #logo-link {
+    display: flex; 
+    align-items: center;
+    width: 10%; 
+    padding-left: 2%;
+}
+    #logo-cup{
+    width: 100%; 
+} 
+
+.navigation-menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding-left: 5%;
+    transition: 0.6s all;
+}
+
+.menu-item {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-link {
+    color: #fff3f3;
+    text-decoration: none;
+}
+.first-nav-li{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.second-nav-li {
+    display: flex;
+    gap: 20px;
+    padding-left: 25%;
+}
+.tex-box-header{
+    padding: 10% 10%;
+    color: #fff;
+}
+
+.main-text-head{
+    font-size: 60px;
+    text-align: center;
+}
+
+/* About Us */
+.about-us{
+    background-color: #f8f9fa; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about-us-container{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.about-text{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 50%;
+}
+.text-line{
+    background-color: #0084D6;
+    height: 5px;
+    width: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.about-us-h2{
+    font-size: 45px;
+}
+.about-us-p{
+    margin-top: 3%;
+}
+.about-img{
+    background: url('../Images/stages-of-tea-preparation.jpg') no-repeat;
+    width: 40%;
+    height: 60vh;
+}
+
+.team-head{
+    margin-top: 5%;
+    text-align: center;
+}
+.text-line-team{
+    background-color: #0084D6;
+    height: 5px;
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin: 0 auto;
+}
+.team-head h2{
+    padding-top: 2%;
+    font-size: 45px;
+}
+.team-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-item{
+    background-color: #f8f9fa;
+    padding: 30px 30px 30px 30px;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+}
+
+.our-shop{
+    margin-top: 5%;
+}
+.our-shop h2{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.our-shop-img{
+    width: 100%;
+    height: 150vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../Images/tea-shop-baner.jpg') no-repeat center/cover;
+    background-position: center center; 
+    padding-bottom: 5%; 
+    background-attachment: fixed;
+}
+
+/* Footer */
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 5% 5% 5%;
+    border-top: 1px solid #b0b3b7;
+    border-bottom: 1px solid #b0b3b7;
+    line-height: 30px;
+}
+
+.footer-menu h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.Icons {
+    display: flex;
+    gap: 30px;
+}
+.Icons a{
+    color: #000000;
+   }
+.footer-menu li{
+    color: #4a4b4b;
+    list-style: none;
+}
+
+.subscribe input {
+    font-size: 15px;
+    padding: 10px; 
+    border: 1px solid #b0b3b7;
+    margin-top: 10%;
+    width: 130%;
+}
+
+.subscribe-btn{
+    background-color: #0484d4;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10%;
+    cursor: pointer;  
+    transition: 0.2s ease-in-out;
+    border: none;
+}
+
+.subscribe-btn:hover{
+    background-color: #0474bc;  
+}
+
+@media (max-width: 1200px) {
+    .second-nav-li {
+        padding-left: 15%;
+    }
+    .menu-link{
+        font-size: 17px;
+    }
+    .team-wrapper{
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    .second-nav-li {
+        padding-left: 7%;
+    }
+    .menu-link{
+        font-size: 14px;
+    }
+    .team-wrapper{
+        width: 90%;
+    }
+    .team-item{
+        width: 200px;
+        height: 200px;
+    }
+    .team-img img{
+        width: 80%;
+    }
+    .our-shop-img{
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .navigation-menu{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .menu {
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 60%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: 0.6s all;
+        z-index: 10;
+      }
+
+    .first-nav-li{
+        position: fixed;
+        flex-direction: column;  
+        margin-top: 10vh;
+    }
+    .second-nav-li{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 60vh;
+    }
+    .menu-active {
+        left: 0;
+      }
+      .menu-item {
+        padding-right: 0;
+        border: none;
+        margin: 10px 0;
+      }
+      .menu-link {
+        font-size: 20px;
+      }
+      .hamburger {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateX(-50%);
+        width: 26px;
+        height: 12px;
+      }
+      .hamburger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 2px;
+        transition: 0.5s all;
+      }
+      .hamburger-active span {
+        margin-bottom: -2px;
+        margin-bottom: -2px;
+      }
+      .hamburger-active span:nth-child(1) {
+        transform: translateY(3px) rotate(-45deg);
+      }
+      .hamburger-active span:nth-child(2) {
+        display: none;
+      }
+      .hamburger-active span:nth-child(3) {
+        transform: translateY(3px) rotate(45deg);
+      }
+      .xs-hidden {
+        display: none;
+      }
+      .xs-visible {
+        display: block;
+      }
+      #logo-link{
+        width: 15%;
+    }
+    .about-img{
+        display: none;
+    }
+    .about-us-container{
+        width: 80%;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-us-h2{
+        font-size: 26px;
+    }
+    .about-us-p{
+        font-size: 14px;
+    }
+    .info-content{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .content-in{
+        width: 90%;
+        padding-top: 10%;
+    }
+    .subscribe input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-menu{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .footer-link{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .Icons{
+        justify-content: center;
+    }
+}
