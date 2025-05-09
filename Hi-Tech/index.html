@@ -240,24 +240,22 @@
     </footer>
 
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        window.addEventListener('scroll', function() {
-          const header = document.querySelector('header');
-          header.classList.toggle('fixed', window.scrollY > 0);
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle('fixed', window.scrollY > 0);
         });
 
-        document.querySelector('.menu-icon').addEventListener('click', function() {
-          document.querySelector('nav').classList.add('menu-open');
-          document.querySelector('.menu-icon').style.display = 'none';
-          document.querySelector('.menu-close').style.display = 'block';
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.querySelector('nav').classList.add('menu-open');
+            document.querySelector('.menu-icon').style.display = 'none';
+            document.querySelector('.menu-close').style.display = 'block';
         });
 
-        document.querySelector('.menu-close').addEventListener('click', function() {
-          document.querySelector('nav').classList.remove('menu-open');
-          document.querySelector('.menu-icon').style.display = 'block';
-          document.querySelector('.menu-close').style.display = 'none';
+        document.querySelector('.menu-close').addEventListener('click', function () {
+            document.querySelector('nav').classList.remove('menu-open');
+            document.querySelector('.menu-icon').style.display = 'block';
+            document.querySelector('.menu-close').style.display = 'none';
         });
-      });
     </script>
   </body>
 </html>
