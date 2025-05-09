@@ -1007,6 +1007,10 @@ template {
     justify-content: space-between;
     padding: 0 30px;
   }
+  .skills-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
   .portfolio-wrapper {
     grid-template-columns: repeat(auto-fit, 280px);
     grid-auto-rows: 280px;

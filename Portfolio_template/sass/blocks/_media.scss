@@ -38,6 +38,10 @@
             justify-content: space-between;
             padding: 0 30px;
         }
+        &-wrapper{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
     }
     .portfolio {
         &-wrapper {
@@ -82,7 +86,7 @@
         }
         &-skills {
             grid-template-columns: 380px;
-            grid-auto-rows: minmax(115px,auto);
+            grid-auto-rows: minmax(115px, auto);
             &-item {
                 grid-template-columns: 40px 320px;
                 column-gap: 20px;
