@@ -1,0 +1,131 @@
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../img/main_bg.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  /* padding: 12px 30px; */
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  width: 120px;
+  height: 30px;
+}
+
+/* .cta-button:hover {
+  background-color: #5a3c29;
+} */
+
+
+
+.header {
+  background-color: #fff;
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+/*   position: sticky;
+  top: 0;
+  z-index: 100; */
+}
+
+.header-container {
+/*   max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  margin-left: 20%;
+  margin-bottom: 5%;
+} 
+
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  padding: 5px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #af7e5b;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #af7e5b;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .nav-list {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

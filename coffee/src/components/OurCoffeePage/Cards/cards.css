@@ -1,0 +1,27 @@
+.our-beans-item{
+    width: 30%;
+}
+
+.products-section-big{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.other-grid{
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.product-text{
+    text-align: end;
+    font-size: 14px
+}
+.country{
+    color: black;
+}
+
+.our-coffee-cards{
+    width: 230px;
+    height: 260px;
+    border: none;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.1);;
+}

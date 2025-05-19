@@ -1,0 +1,38 @@
+.line{
+    border: 1px solid black;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.filter{
+    display: flex;
+    gap: 5%;
+    margin-top: 3%;
+    justify-content: center;
+}
+.looking-block{
+    display: flex;
+    gap: 10px;
+}
+.filter-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.filter-input{
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.filter-btn-country{
+    width: 75px;
+    height: 30px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
