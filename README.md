@@ -31,7 +31,7 @@ This collection includes various specialized web projects:
 ## 🔗 Live Preview
 
 You can view the live versions of these projects directly through GitHub Pages:
-👉 [vorobiova2005.github.io](https://vorobiova2005.github.io)
+👉 [vorobiova2005.github.io](https://vorobiova2005.github.io/(Project name))
 
 ---
 *Maintained by [vorobiova2005](https://github.com/vorobiova2005). Feel free to explore the code and reach out for collaboration!*
